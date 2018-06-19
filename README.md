@@ -1,4 +1,4 @@
-# Thực hiện hoạt động ghi đa luồng trong SQLite gần như cùng một thời gian / Almost row level lock performance.
+# Thực hiện hoạt động ghi đa luồng trong SQLite gần như cùng một thời gian / Almost row level lock performance. 1231321321
 
 Chào các bạn,
 
