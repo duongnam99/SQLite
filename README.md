@@ -1,4 +1,4 @@
-# Thực hiện hoạt động ghi đa luồng trong SQLite gần như cùng một thời gian / Almost row level lock performance. 1231321321
+# Thực hiện hoạt động ghi đa luồng trong SQLite gần như cùng một thời điểm / Almost row level lock performance. 
 
 Chào các bạn,
 
@@ -23,7 +23,7 @@ Chúng ta hãy cùng tìm hiểu ưu điểm và nhược điểm của SQLite
 - và vân vân ………..
 
 ### Một số nhược điểm.
-- Như chúng ta đã đề cập, SQLite là đơn luồng. Vì vậy, nó có nghĩa là SQLite có thể thực hiện một thao tác ghi tại một thời điểm
+- Như chúng ta đã đề cập, SQLite là đơn luồng. Vì vậy, nó có nghĩa là SQLite chỉ có thể thực hiện một thao tác ghi tại một thời điểm
 - Như chúng ta đã đề cập, SQLite giữ cơ sở dữ liệu trong một file.Vì vậy,có nghĩa là nó khóa toàn bộ cơ sở dữ liêụ trong quá trình ghi. Điều này rất không phù hợp đối với cơ sở dữ liệu truy cập lớn và sâu.. 
 - Không yêu cầu xác thực mức ứng dụng
 ### Thực hiện ghi đa luồng cùng một lúc.
